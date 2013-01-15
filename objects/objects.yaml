@@ -1,0 +1,4 @@
+screw_1:
+  object_type: screw
+  model_type: urdf.xacro
+    

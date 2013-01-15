@@ -1,0 +1,35 @@
+<package>
+  <description brief="kee_use_cases">
+
+     kee_use_cases
+
+  </description>
+  <author>zinnirah</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kee_use_cases</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="raw_2dnav"/>
+  <depend package="raw_2dnav_eband"/>
+  <depend package="raw_2dnav_omni"/>
+  <depend package="raw_2dslam"/>
+  <depend package="raw_arm_bridge_ros_orocos"/>
+  <depend package="raw_arm_cmds"/>
+  <depend package="raw_arm_navigation"/>
+  <depend package="raw_base_placement"/>
+  <depend package="raw_bringup"/>
+  <depend package="raw_bringup_sim"/>
+  <depend package="raw_calibration_data"/>
+  <depend package="raw_default_env_config"/>
+  <depend package="raw_default_robot_config"/>
+  <depend package="raw_description"/>
+  <depend package="raw_door_status"/>
+  <depend package="raw_fetch_and_carry"/>
+  <depend package="raw_final_iros2012"/>
+  <depend package="raw_gazebo_objects"/>
+
+</package>
+
+

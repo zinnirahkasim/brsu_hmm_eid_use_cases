@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="box_1" xmlns:xacro="http://ros.org/wiki/xacro">	
+
+	<include filename="$(find kee_use_cases)/objects/box.urdf.xacro"/>
+
+	<!--xacro:model_template name="box_1" model_filename="nut_m20.dae" scale="0.001"  size_x="0.015" size_y="0.028" size_z="0.028" weight="0.068"/-->
+
+	<xacro:model_template name="box_1" scale="0.001"  size_x="0.015" size_y="0.015" size_z="0.001" weight="0.068"/>
+	
+</robot>

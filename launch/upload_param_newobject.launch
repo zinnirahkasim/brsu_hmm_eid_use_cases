@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- send ROBOT_ENV parameters to parameter server -->
+	<rosparam command="load" ns="/simulation/object" file="$(find kee_use_cases)/$(find objects)/objects.yaml"/>
+
+</launch>

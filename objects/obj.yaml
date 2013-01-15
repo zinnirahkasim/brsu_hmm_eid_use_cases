@@ -1,0 +1,10 @@
+box_0:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.8865989870566063, -0.13049203115826846, 0.33]
+box_1:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.4027232604217051, -0.863096962658469, 0.33]
