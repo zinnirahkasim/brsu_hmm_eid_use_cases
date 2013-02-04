@@ -58,27 +58,27 @@ class set_param_for_new_object:
 def main():
     rospy.init_node('add_object_randomly')    
     ### wait for gazebo world being loaded
-    rospy.loginfo("Wait for service <</gazebo/get_world_properties>>")
-    rospy.wait_for_service('/gazebo/get_world_properties', 300)
+    #rospy.loginfo("Wait for service <</gazebo/get_world_properties>>")
+    #rospy.wait_for_service('/gazebo/get_world_properties', 300)
     
-    world_loaded = False
-    while not world_loaded:    
-        srv_world_infos = rospy.ServiceProxy('/gazebo/get_world_properties', GetWorldProperties)
+    #world_loaded = False
+    #while not world_loaded:    
+    #    srv_world_infos = rospy.ServiceProxy('/gazebo/get_world_properties', GetWorldProperties)
     
-        try:
-            req = GetWorldPropertiesRequest()
-            res = srv_world_infos(req)
-            
-            for item in res.model_names:
-                if item == 'arena':
-                    world_loaded = True
-                    break
-        except rospy.ServiceException, e:
-            print "Service call <</gazebo/get_world_properties>> failed: %s"%e
+    #    try:
+    #        req = GetWorldPropertiesRequest()
+    #        res = srv_world_infos(req)
+    #        
+    #        for item in res.model_names:
+    #            if item == 'arena':
+    #                world_loaded = True
+    #                break
+    #    except rospy.ServiceException, e:
+    #        print "Service call <</gazebo/get_world_properties>> failed: %s"%e
+    #    
+    #    rospy.sleep(1)
         
-        rospy.sleep(1)
-        
-    rospy.loginfo("Arena loaded successfully. Start loading objects ...")
+    #rospy.loginfo("Arena loaded successfully. Start loading objects ...")
     
     # get object information
     amount=input("Please enter the amount of objects you would like ot spawn: ")

@@ -18,10 +18,10 @@
   <depend package="raw_arm_bridge_ros_orocos"/>
   <depend package="raw_arm_cmds"/>
   <depend package="raw_arm_navigation"/>
-  <depend package="raw_base_placement"/-->
+  <depend package="raw_base_placement"/>
   <depend package="raw_bringup"/>
   <depend package="raw_bringup_sim"/>
-  <!--depend package="raw_calibration_data"/>
+  <depend package="raw_calibration_data"/>
   <depend package="raw_default_env_config"/>
   <depend package="raw_default_robot_config"/>
   <depend package="raw_description"/>

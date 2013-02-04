@@ -27,14 +27,25 @@ import tf.transformations as tft
 
 
 class set_param_for_new_object:
-    def __init__(self):
-        self.x = random.uniform(0, 1.52)
-        self.y = random.uniform(0, -1.22)
+    def __init__(self, amount):
+        self.x = random.uniform(-1.52, 1.52)
+        self.y = random.uniform(1.22, -1.22)
+        self.amount=amount
+        print self.x
+        print self.y
+        print self.amount
         
     def write_yaml_files(self):
+        #amount = raw_input("How many objects would you like to spawn? ")
         new_obj_yaml_file = open('/home/zinnirah/ros/workspace/kee_use_cases/objects/obj.yaml', 'w')
-        object_details = {'screw_1':{'object_type': 'screw', 'model_type': 'urdf.xacro', 'position': [self.x, self.y, 0], 'orientation': [0, 0, 0]}}
-        yaml.dump(object_details,new_obj_yaml_file)
+        for i in range(self.amount):
+            #self.x = random.uniform(-1.52, 1.52)
+            #self.y = random.uniform(1.22, -1.22)
+            self.x = random.gauss(0, 0.5)
+            self.y = random.uniform(-1, 1)  
+            object_details = {'box_'+str(i):{'object_type': 'box_1', 'model_type': 'urdf', 'position': [self.x, self.y, 0.33], 'orientation': [0, 0, 0]}}
+            yaml.dump(object_details,new_obj_yaml_file)
+        
         new_obj_yaml_file.close()
 
     def set_parameter(self):
@@ -46,7 +57,7 @@ class set_param_for_new_object:
 #if __name__ == "__main__":
 def main():
     rospy.init_node('add_object_randomly')    
-    ### wait for gazebo world beeing loaded
+    ### wait for gazebo world being loaded
     rospy.loginfo("Wait for service <</gazebo/get_world_properties>>")
     rospy.wait_for_service('/gazebo/get_world_properties', 300)
     
@@ -68,12 +79,13 @@ def main():
         rospy.sleep(1)
         
     rospy.loginfo("Arena loaded successfully. Start loading objects ...")
-
     
     # get object information
-    sp = set_param_for_new_object()
+    amount=input("Please enter the amount of objects you would like ot spawn: ")
+    sp = set_param_for_new_object(amount)
     sp.write_yaml_files()
     sp.set_parameter()
+        
     if rospy.has_param('/simulation/random_objects/'):
         print "yay!"
     
@@ -125,14 +137,6 @@ def main():
             print 'Error: Model type not know. model_type = ' + model_type
             sys.exit()
 
-	rospy.wait_for_service("gazebo/spawn_urdf_model")#,timeout)
-        #new_object = rospy.ServiceProxy("gazebo/spawn_urdf_model", SpawnModel, persistent=False, headers=None)
-        SpawnModelRequest.model_name="screw_1"
-        #try:
-        #    print new_object
-        #    #new_object.request_class.
-        #except rospy.ServiceException, e:
-        #    print "Service did not process request: %s"%str(e)
 
         req = SpawnModelRequest()
         req.model_name = obj_name # model name from command line input
@@ -148,6 +152,6 @@ def main():
             print "Error: model %s not spawn. error message = "% object + res.status_message
 	
 	rospy.spin()
-    #where will it appear? A or B
+
 if __name__ == '__main__':
     main()
