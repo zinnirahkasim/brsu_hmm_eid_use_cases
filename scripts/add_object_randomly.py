@@ -28,8 +28,8 @@ import tf.transformations as tft
 
 class set_param_for_new_object:
     def __init__(self, amount):
-        self.x = random.uniform(-1.52, 1.52)
-        self.y = random.uniform(1.22, -1.22)
+        self.x = random.uniform(0, 1.52)
+        self.y = random.uniform(0, -1.22)
         self.amount=amount
         print self.x
         print self.y
@@ -41,7 +41,7 @@ class set_param_for_new_object:
         for i in range(self.amount):
             #self.x = random.uniform(-1.52, 1.52)
             #self.y = random.uniform(1.22, -1.22)
-            self.x = random.gauss(0, 0.5)
+            self.x = random.uniform(0, 1.52)
             self.y = random.uniform(-1, 1)  
             object_details = {'box_'+str(i):{'object_type': 'box_1', 'model_type': 'urdf', 'position': [self.x, self.y, 0.33], 'orientation': [0, 0, 0]}}
             yaml.dump(object_details,new_obj_yaml_file)
@@ -81,7 +81,7 @@ def main():
     #rospy.loginfo("Arena loaded successfully. Start loading objects ...")
     
     # get object information
-    amount=input("Please enter the amount of objects you would like ot spawn: ")
+    amount=input("Please enter the amount of objects you would like to spawn: ")
     sp = set_param_for_new_object(amount)
     sp.write_yaml_files()
     sp.set_parameter()
