@@ -12,6 +12,8 @@ SET(CMAKE_FORCE_UNIX_PATHS 1)
 SET(CMAKE_C_INCLUDE_PATH
   "../include"
   "/opt/ros/fuerte/include"
+  "/opt/ros/fuerte/share/actionlib/include"
+  "/opt/ros/fuerte/stacks/executive_smach/smach_msgs/msg_gen/cpp/include"
   "/opt/ros/fuerte/stacks/laser_drivers/hokuyo_node/msg/cpp"
   "/opt/ros/fuerte/stacks/laser_drivers/hokuyo_node/srv/cpp"
   "/opt/ros/fuerte/stacks/laser_drivers/hokuyo_node/include"
@@ -61,7 +63,6 @@ SET(CMAKE_C_INCLUDE_PATH
   "/opt/ros/fuerte/stacks/control/control_msgs/msg/cpp"
   "/opt/ros/fuerte/stacks/control/control_msgs/srv/cpp"
   "/opt/ros/fuerte/stacks/control/control_msgs/msg_gen/cpp/include"
-  "/opt/ros/fuerte/share/actionlib/include"
   "/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_trajectory_action_server/cfg/cpp"
   "/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_trajectory_action_server/include"
   "/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_drivers/youbot_oodl/cfg/cpp"

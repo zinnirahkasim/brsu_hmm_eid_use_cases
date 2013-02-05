@@ -2,4 +2,24 @@ box_0:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.5851365619195612, 0.06749788183066219, 0.33]
+  position: [0.10206468527549453, -0.44697306120978086, 0.33]
+box_1:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.390136990697242, -0.5794509438905626, 0.33]
+box_2:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.0064685133108504, 0.20806447848808696, 0.33]
+box_3:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.6782047424714657, -0.31906088230070906, 0.33]
+box_4:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.5463245375166214, 0.7280631312897814, 0.33]

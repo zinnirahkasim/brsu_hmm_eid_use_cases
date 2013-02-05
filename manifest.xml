@@ -11,7 +11,10 @@
   <depend package="std_msgs"/>
   <depend package="rospy"/>
   <depend package="roscpp"/>
+  <depend package="smach"/>
+  <depend package="smach_ros"/>
   <!--depend package="raw_2dnav"/>
+  <depend package="raw_generic_states">
   <depend package="raw_2dnav_eband"/>
   <depend package="raw_2dnav_omni"/>
   <depend package="raw_2dslam"/>
