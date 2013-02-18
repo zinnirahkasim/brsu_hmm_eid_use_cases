@@ -20,11 +20,23 @@ import rospy
 import os
 import random 
 import yaml
+from gazebo_msgs.srv import DeleteModel 
 
+def delete_objects(event):
+        
+    rospy.wait_for_service("/gazebo/delete_model", 300)
+    try:
+        deleted = rospy.ServiceProxy("/gazebo/delete_model", DeleteModel)
+        deleted('adapter_sleeve_r20_1')
+    except rospy.ServiceException, e:
+        print "Service call failed: %s"%e
+
+        
 def main():
     rospy.init_node('remove_object')
     
-    rospy.delete_param("simulation/objects/")
+    random_add_secs=random.uniform(0, 1)
+    rospy.Timer(rospy.Duration(random_add_secs), delete_objects, oneshot=True)
     
     rospy.spin()
 
