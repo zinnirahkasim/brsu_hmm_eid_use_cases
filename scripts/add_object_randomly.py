@@ -41,7 +41,7 @@ class set_param_for_new_object:
         for i in range(self.amount):
             #self.x = random.uniform(-1.52, 1.52)
             #self.y = random.uniform(1.22, -1.22)
-            self.x = random.uniform(0, 1.52)
+            self.x = random.uniform(-1.52, 1.52)
             self.y = random.uniform(-1, 1)  
             object_details = {'box_'+str(i):{'object_type': 'box_1', 'model_type': 'urdf', 'position': [self.x, self.y, 0.33], 'orientation': [0, 0, 0]}}
             yaml.dump(object_details,new_obj_yaml_file)
@@ -100,8 +100,6 @@ def main():
         object_type = rospy.get_param(param_obj_preffix + "/" + obj_name + "/object_type")
         orientation = rospy.get_param(param_obj_preffix + "/" + obj_name + "/orientation")
         position = rospy.get_param(param_obj_preffix + "/" + obj_name + "/position")
-        #orientation = [0,0,0]
-        #position =[random.uniform(0, 1.52),random.uniform(0, -1.22),0]
         
         # convert rpy to quaternion for Pose message
         quaternion = tft.quaternion_from_euler(orientation[0], orientation[1], orientation[2])
