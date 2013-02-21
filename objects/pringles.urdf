@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="pringles">
+  <link name="pringles">
+    <visual>
+      <geometry>
+        <cylinder length="0.269" radius="0.2"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
