@@ -69,3 +69,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
+#TODo:
+#test arm configurations, make the change working! STA 1 etc still not working!!
+# random base positions, perhaps by putting the predefined base positions in an array, and randomly select from that
+# repeat experiment

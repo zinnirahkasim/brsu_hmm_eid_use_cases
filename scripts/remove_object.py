@@ -41,3 +41,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#TODO:
+#delete more objects automatically
+#extend the span of the seconds

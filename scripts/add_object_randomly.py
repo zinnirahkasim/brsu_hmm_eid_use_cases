@@ -153,3 +153,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#TODO:
+#Add random objects
+#Add more objects that will give more effects
