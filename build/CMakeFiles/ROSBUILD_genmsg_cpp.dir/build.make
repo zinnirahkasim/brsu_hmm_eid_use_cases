@@ -31,11 +31,14 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zinnirah/ros/workspace/kee_use_cases
+CMAKE_SOURCE_DIR = /home/zinnirah/ros/workspace/thesis/kee_use_cases
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zinnirah/ros/workspace/kee_use_cases/build
+CMAKE_BINARY_DIR = /home/zinnirah/ros/workspace/thesis/kee_use_cases/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
@@ -57,6 +60,6 @@ CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend:
-	cd /home/zinnirah/ros/workspace/kee_use_cases/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zinnirah/ros/workspace/kee_use_cases /home/zinnirah/ros/workspace/kee_use_cases /home/zinnirah/ros/workspace/kee_use_cases/build /home/zinnirah/ros/workspace/kee_use_cases/build /home/zinnirah/ros/workspace/kee_use_cases/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zinnirah/ros/workspace/thesis/kee_use_cases/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zinnirah/ros/workspace/thesis/kee_use_cases /home/zinnirah/ros/workspace/thesis/kee_use_cases /home/zinnirah/ros/workspace/thesis/kee_use_cases/build /home/zinnirah/ros/workspace/thesis/kee_use_cases/build /home/zinnirah/ros/workspace/thesis/kee_use_cases/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend
 

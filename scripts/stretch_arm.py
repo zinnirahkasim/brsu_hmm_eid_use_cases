@@ -5,6 +5,7 @@ import rospy
 import smach
 import smach_ros
 import arm_navigation_msgs.msg
+from std_msgs.msg import Float64
 
 import random 
 import yaml
@@ -21,7 +22,7 @@ class set_param_for_stretch_arm:
         
     def write_yaml_files(self):
         #amount = raw_input("How many objects would you like to spawn? ")
-        stretch_arm_yaml_file = open('/home/zinnirah/ros/workspace/kee_use_cases/objects/stretch_arm.yaml', 'w')
+        stretch_arm_yaml_file = open('/home/zinnirah/ros/workspace/thesis/kee_use_cases/objects/stretch_arm.yaml', 'w')
         for i in range(self.amount):
             self.arm_joint_1 = random.uniform(0.0100692, 5.84014)
             self.arm_joint_2 = random.uniform(0.0100692, 2.61799)
@@ -35,11 +36,12 @@ class set_param_for_stretch_arm:
         stretch_arm_yaml_file.close()
 
     def set_parameter(self):
-        read_yaml_file = open('/home/zinnirah/ros/workspace/kee_use_cases/objects/stretch_arm.yaml', 'r')
+        read_yaml_file = open('/home/zinnirah/ros/workspace/thesis/kee_use_cases/objects/stretch_arm.yaml', 'r')
         rospy.set_param("/script_server/stretch_arm/", yaml.load(read_yaml_file))
         print yaml.load(read_yaml_file)
         read_yaml_file.close()
         
+                
 def main():
     rospy.init_node('stretch_arm')
     
@@ -60,11 +62,20 @@ def main():
     sss.move("arm", "stretch_arm/stretch_arm_1")
     sss.move("base", "D2")
     sss.move("arm", "stretch_arm/stretch_arm_2")
+    sss.move("arm", "zigzag/zigzag_1")
     sss.move("base", "S1")
     sss.move("arm", "stretch_arm/stretch_arm_3")
     sss.move("base", "D2")
     sss.move("base", "S3")
-
+    sss.move("arm", "stretch_arm/stretch_arm_1")
+    sss.move("base", "D2")
+    sss.move("arm", "stretch_arm/stretch_arm_2")
+    sss.move("base", "S1")
+    sss.move("arm", "stretch_arm/stretch_arm_3")
+    sss.move("base", "D2")
+    sss.move("arm", "zigzag/zigzag_1")
+    sss.move("base", "S3")
+    sss.move("base", "S1")
     rospy.spin()
 
 if __name__ == '__main__':
