@@ -29,11 +29,10 @@ def callback(msg):
     #wheel_right.set_speed(v_r)
     return resultant
 
-#def talker(resultant):
-#    pub = rospy.Publisher('resultant_actual_base_velocity', Float64 )
-    #rospy.init_node('talker')
+def talker(resultant):
+    pub = rospy.Publisher('resultant_actual_base_velocity', Float64 )
 #    while not rospy.is_shutdown():
-#        pub.publish(Float64(resultant))
+    pub.publish(resultant)
 #        rospy.sleep(1.0)
 
 def listener():

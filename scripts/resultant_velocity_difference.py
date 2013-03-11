@@ -22,12 +22,12 @@ def callback_2(msg):
 #        rospy.sleep(1.0)
 
 def listener():
-    cmd_vel=rospy.Subscriber("resultant_cmd_base_velocity", Odometry, callback_1)
-    act_vel=rospy.Subscriber("resultant_actual_base_velocity", Odometry, callback_2)
-    difference = math.fabs(cmd_vel - act_vel)
-    rospy.spin()
     
-    return difference
+    while not rospy.is_shutdown():
+        cmd_vel=rospy.Subscriber("resultant_cmd_base_velocity", Odometry, callback_1)
+        act_vel=rospy.Subscriber("resultant_actual_base_velocity", Odometry, callback_2)
+        diff_vel = math.fabs(cmd_vel - act_vel)
+        return diff_vel
 
 
 if __name__ == '__main__':
