@@ -15,12 +15,15 @@ def callback(msg):
         buffer_function(vel_init) #?
     else:
         #how do i get the the vel_init?
+        vel_init = buffer_function()
         vel_last = msg.twist.twist.linear.x
         acceleration = (vel_last - vel_init)/4
         talker(acceleration)
+        buffer_function(vel_last)
     
-def buffer_function(vel_init):
-    return vel_init
+def buffer_function(*args):
+    for each in args:
+        return each
     
 
 def talker(acc):

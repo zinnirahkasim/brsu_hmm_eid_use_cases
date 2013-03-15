@@ -17,10 +17,13 @@ if __name__ == '__main__':
           rospy.loginfo("do this every %f seconds ", duration)
           
           if now.secs == 0:
-              rospy.loginfo("call this once and break")
+              rospy.loginfo("save the first velocity")
           else:
               diff = now.secs-then.secs
+              
               rospy.loginfo("diff :%f ", diff)
+              rospy.loginfo("get new first velocity")
+              rospy.loginfo("get new last velocity")
           
           then = rospy.Time.now()
           rospy.loginfo("then time %f", then.secs)
