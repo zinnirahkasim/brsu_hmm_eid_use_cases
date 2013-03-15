@@ -22,7 +22,7 @@ def listener():
     rospy.Subscriber("cmd_vel", Twist, callback_1)
     rospy.Subscriber("odom", Odometry, callback_2)
 
-def talker(cmd=2, act=2):
+def talker(cmd=0, act=0):
     difference = math.fabs(cmd - act) 
     rospy.loginfo("difference: %f"%difference)
     pub = rospy.Publisher('x_velocity_difference', Float64 )

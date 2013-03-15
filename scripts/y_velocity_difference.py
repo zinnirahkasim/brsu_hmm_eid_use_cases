@@ -9,7 +9,7 @@ from geometry_msgs.msg import *
 
 
 def callback_1(msg):
-    rospy.loginfo("Received forward velocity <</cmd_vel>> message! The value is %f" %msg.linear.y)
+    rospy.loginfo("Received side velocity command <</cmd_vel>> message! The value is %f" %msg.linear.y)
     cmd_y_vel = msg.linear.y
     talker(cmd=cmd_y_vel)
 
@@ -22,12 +22,11 @@ def listener():
     rospy.Subscriber("cmd_vel", Twist, callback_1)
     rospy.Subscriber("odom", Odometry, callback_2)
 
-def talker(cmd=2, act=1):
+def talker(cmd=0, act=0):
     difference = cmd - act 
     pub = rospy.Publisher('y_velocity_difference', Float64 )
     pub.publish(difference)
     #rospy.sleep(5.0)
-
 
 if __name__ == '__main__':
     rospy.init_node('y_velocity_difference', anonymous=True)

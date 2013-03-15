@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+    <launch>
+        <node name="x_velocity_difference" pkg="kee_use_cases" type="scripts/x_velocity_difference.py" args="--test" respawn="true" />
+        <node name="y_velocity_difference" pkg="kee_use_cases" type="scripts/y_velocity_difference.py" args="--test" respawn="true" />
+    </launch>
