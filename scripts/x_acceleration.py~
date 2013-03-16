@@ -35,15 +35,15 @@ def callback(msg):
     if rospy.Time.now() == 0:
         vel_init = msg.twist.twist.linear.x
         print vel_init
-        store_vel_init.write_file(vel_init) #?
+        #store_vel_init.write_file(vel_init) #?
     else:
         #how do i get the the vel_init?
-        vel_init = store_vel_init.read_file()
+        #vel_init = store_vel_init.read_file()
         vel_last = msg.twist.twist.linear.x
         print vel_last
-        acceleration = (vel_last - vel_init)/4
-        talker(acceleration)
-        store_vel_init.write_file(vel_last)
+        #acceleration = (vel_last - vel_init)/4
+        #talker(acceleration)
+        #store_vel_init.write_file(vel_last)
     
 
 def talker(acc):
