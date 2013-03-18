@@ -14,7 +14,7 @@ def callback_1(msg):
     talker(cmd=cmd_y_vel)
 
 def callback_2(msg):
-    rospy.loginfo("Received actual <</odom>> message! The value is %f"%msg.twist.twist.linear.y)
+    rospy.loginfo("Received actual y <</odom>> message! The value is %f"%msg.twist.twist.linear.y)
     act_y_vel = msg.twist.twist.linear.y
     talker(act=act_y_vel)
 
