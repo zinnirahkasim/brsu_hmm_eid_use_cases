@@ -81,13 +81,14 @@ def talker():
     cmd = scx.read_file()
     act = sax.read_file()
      
-    if (cmd is not None) and (act is not None):
-        difference = cmd -act
-    else:
-        difference = 0
+    #try:
+    difference = cmd -act 
     rospy.loginfo("difference: %f"%difference)
     pub = rospy.Publisher('x_velocity_difference', Float64 )
     pub.publish(difference)
+    #except rospy.ROSException:
+    #    rospy.loginfo("cannot find difference")
+   
     #rospy.sleep(0.5)
 
 
