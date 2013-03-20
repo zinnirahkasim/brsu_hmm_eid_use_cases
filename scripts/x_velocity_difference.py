@@ -16,13 +16,13 @@ class store_cmd_x:
     def write_file(self, vel_cmd_x):
         #amount = raw_input("How many objects would you like to spawn? ")
         self.vel_cmd_x=vel_cmd_x
-        vel_cmd_file = open('../objects/vel_cmd_x.yaml', 'w')
+        vel_cmd_file = open('/home/zinnirah/ros/workspace/thesis/kee_use_cases/objects/vel_cmd_x.yaml', 'w')
         vel_cmd_details = self.vel_cmd_x
         yaml.dump(vel_cmd_details,vel_cmd_file)
         vel_cmd_file.close()
 
     def read_file(self):
-        read_yaml_file = open('../objects/vel_cmd_x.yaml', 'r')
+        read_yaml_file = open('/home/zinnirah/ros/workspace/thesis/kee_use_cases/objects/vel_cmd_x.yaml', 'r')
         pass_velocity_cmd = yaml.load(read_yaml_file)
         #rospy.loginfo("inthe file: %f", yaml.load(read_yaml_file))
         #print pass_velocity_init
@@ -37,13 +37,13 @@ class store_act_x:
     def write_file(self, vel_act_x):
         #amount = raw_input("How many objects would you like to spawn? ")
         self.vel_act_x=vel_act_x
-        vel_act_file = open('../objects/vel_act_x.yaml', 'w')
+        vel_act_file = open('/home/zinnirah/ros/workspace/thesis/kee_use_cases/objects/vel_act_x.yaml', 'w')
         vel_act_details = self.vel_act_x
         yaml.dump(vel_act_details,vel_act_file)
         vel_act_file.close()
 
     def read_file(self):
-        read_yaml_file = open('../objects/vel_act_x.yaml', 'r')
+        read_yaml_file = open('/home/zinnirah/ros/workspace/thesis/kee_use_cases/objects/vel_act_x.yaml', 'r')
         pass_velocity_act = yaml.load(read_yaml_file)
         #rospy.loginfo("inthe file: %f", yaml.load(read_yaml_file))
         #print pass_velocity_init
@@ -80,6 +80,11 @@ def talker():
     
     cmd = scx.read_file()
     act = sax.read_file()
+    
+    if cmd is None:
+        cmd = 0
+    if act is None:
+        act = 0
      
     #try:
     difference = cmd -act 
@@ -99,6 +104,7 @@ if __name__ == '__main__':
         try:
             listener()
             talker()
+            rospy.sleep(1)
         except rospy.ROSInterruptException:
             pass
     
