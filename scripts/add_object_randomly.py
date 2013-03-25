@@ -156,4 +156,4 @@ if __name__ == '__main__':
 
 #TODO:
 #Add random objects
-#Add more objects that will give more effects
+#Add more objects that will give more effects (like a stick))
