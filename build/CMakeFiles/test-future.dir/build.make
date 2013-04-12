@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zinnirah/ros/workspace/thesis/kee_use_cases
+CMAKE_SOURCE_DIR = /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zinnirah/ros/workspace/thesis/kee_use_cases/build
+CMAKE_BINARY_DIR = /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build
 
 # Utility rule file for test-future.
 
@@ -60,6 +60,6 @@ CMakeFiles/test-future.dir/clean:
 .PHONY : CMakeFiles/test-future.dir/clean
 
 CMakeFiles/test-future.dir/depend:
-	cd /home/zinnirah/ros/workspace/thesis/kee_use_cases/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zinnirah/ros/workspace/thesis/kee_use_cases /home/zinnirah/ros/workspace/thesis/kee_use_cases /home/zinnirah/ros/workspace/thesis/kee_use_cases/build /home/zinnirah/ros/workspace/thesis/kee_use_cases/build /home/zinnirah/ros/workspace/thesis/kee_use_cases/build/CMakeFiles/test-future.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build/CMakeFiles/test-future.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test-future.dir/depend
 

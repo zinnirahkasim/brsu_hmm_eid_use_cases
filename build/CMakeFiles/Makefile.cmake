@@ -77,13 +77,13 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ROSBUILD_genmanifest_roseus_kee_use_cases.dir/DependInfo.cmake"
+  "CMakeFiles/ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases.dir/DependInfo.cmake"
   "CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake"
   "CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake"
-  "CMakeFiles/ROSBUILD_genmsg_roseus_kee_use_cases.dir/DependInfo.cmake"
+  "CMakeFiles/ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases.dir/DependInfo.cmake"
   "CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake"
   "CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake"
-  "CMakeFiles/ROSBUILD_gensrv_roseus_kee_use_cases.dir/DependInfo.cmake"
+  "CMakeFiles/ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases.dir/DependInfo.cmake"
   "CMakeFiles/clean-test-results.dir/DependInfo.cmake"
   "CMakeFiles/rosbuild_precompile.dir/DependInfo.cmake"
   "CMakeFiles/rosbuild_premsgsrvgen.dir/DependInfo.cmake"

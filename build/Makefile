@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zinnirah/ros/workspace/thesis/kee_use_cases
+CMAKE_SOURCE_DIR = /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zinnirah/ros/workspace/thesis/kee_use_cases/build
+CMAKE_BINARY_DIR = /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zinnirah/ros/workspace/thesis/kee_use_cases/build/CMakeFiles /home/zinnirah/ros/workspace/thesis/kee_use_cases/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build/CMakeFiles /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zinnirah/ros/workspace/thesis/kee_use_cases/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -99,17 +99,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ROSBUILD_genmanifest_roseus_kee_use_cases
+# Target rules for targets named ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases
 
 # Build rule for target.
-ROSBUILD_genmanifest_roseus_kee_use_cases: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ROSBUILD_genmanifest_roseus_kee_use_cases
-.PHONY : ROSBUILD_genmanifest_roseus_kee_use_cases
+ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases
+.PHONY : ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases
 
 # fast build rule for target.
-ROSBUILD_genmanifest_roseus_kee_use_cases/fast:
-	$(MAKE) -f CMakeFiles/ROSBUILD_genmanifest_roseus_kee_use_cases.dir/build.make CMakeFiles/ROSBUILD_genmanifest_roseus_kee_use_cases.dir/build
-.PHONY : ROSBUILD_genmanifest_roseus_kee_use_cases/fast
+ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases/fast:
+	$(MAKE) -f CMakeFiles/ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases.dir/build.make CMakeFiles/ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases.dir/build
+.PHONY : ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases/fast
 
 #=============================================================================
 # Target rules for targets named ROSBUILD_genmsg_cpp
@@ -138,17 +138,17 @@ ROSBUILD_genmsg_lisp/fast:
 .PHONY : ROSBUILD_genmsg_lisp/fast
 
 #=============================================================================
-# Target rules for targets named ROSBUILD_genmsg_roseus_kee_use_cases
+# Target rules for targets named ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases
 
 # Build rule for target.
-ROSBUILD_genmsg_roseus_kee_use_cases: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ROSBUILD_genmsg_roseus_kee_use_cases
-.PHONY : ROSBUILD_genmsg_roseus_kee_use_cases
+ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases
+.PHONY : ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases
 
 # fast build rule for target.
-ROSBUILD_genmsg_roseus_kee_use_cases/fast:
-	$(MAKE) -f CMakeFiles/ROSBUILD_genmsg_roseus_kee_use_cases.dir/build.make CMakeFiles/ROSBUILD_genmsg_roseus_kee_use_cases.dir/build
-.PHONY : ROSBUILD_genmsg_roseus_kee_use_cases/fast
+ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases/fast:
+	$(MAKE) -f CMakeFiles/ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases.dir/build.make CMakeFiles/ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases.dir/build
+.PHONY : ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases/fast
 
 #=============================================================================
 # Target rules for targets named ROSBUILD_gensrv_cpp
@@ -177,17 +177,17 @@ ROSBUILD_gensrv_lisp/fast:
 .PHONY : ROSBUILD_gensrv_lisp/fast
 
 #=============================================================================
-# Target rules for targets named ROSBUILD_gensrv_roseus_kee_use_cases
+# Target rules for targets named ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases
 
 # Build rule for target.
-ROSBUILD_gensrv_roseus_kee_use_cases: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ROSBUILD_gensrv_roseus_kee_use_cases
-.PHONY : ROSBUILD_gensrv_roseus_kee_use_cases
+ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases
+.PHONY : ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases
 
 # fast build rule for target.
-ROSBUILD_gensrv_roseus_kee_use_cases/fast:
-	$(MAKE) -f CMakeFiles/ROSBUILD_gensrv_roseus_kee_use_cases.dir/build.make CMakeFiles/ROSBUILD_gensrv_roseus_kee_use_cases.dir/build
-.PHONY : ROSBUILD_gensrv_roseus_kee_use_cases/fast
+ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases/fast:
+	$(MAKE) -f CMakeFiles/ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases.dir/build.make CMakeFiles/ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases.dir/build
+.PHONY : ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases/fast
 
 #=============================================================================
 # Target rules for targets named clean-test-results
@@ -338,13 +338,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... ROSBUILD_genmanifest_roseus_kee_use_cases"
+	@echo "... ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases"
 	@echo "... ROSBUILD_genmsg_cpp"
 	@echo "... ROSBUILD_genmsg_lisp"
-	@echo "... ROSBUILD_genmsg_roseus_kee_use_cases"
+	@echo "... ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases"
 	@echo "... ROSBUILD_gensrv_cpp"
 	@echo "... ROSBUILD_gensrv_lisp"
-	@echo "... ROSBUILD_gensrv_roseus_kee_use_cases"
+	@echo "... ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases"
 	@echo "... clean-test-results"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
