@@ -241,22 +241,10 @@
 <pathentry kind="mac" name="__GXX_RTTI" path="" value="1"/>
 <pathentry kind="mac" name="__EXCEPTIONS" path="" value="1"/>
 <pathentry kind="mac" name="_GNU_SOURCE" path="" value="1"/>
-<pathentry include="/home/zinnirah/ros/workspace/kee_use_cases/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/RoboCupAtWork/raw_navigation/raw_2dnav/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/geometry/tf/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/geometry/tf/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/geometry/tf/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/bullet/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/geometry/angles/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/map_server/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/msg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/srv/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/robot_pose_ekf/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/bfl/include/bfl" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/share/actionlib/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/executive_smach/smach_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/laser_drivers/hokuyo_node/msg/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/laser_drivers/hokuyo_node/srv/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/laser_drivers/hokuyo_node/include" kind="inc" path="" system="true"/>
@@ -266,61 +254,85 @@
 <pathentry include="/opt/ros/fuerte/stacks/diagnostics/self_test/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/diagnostics/self_test/srv/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/diagnostics/diagnostic_updater/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/move_base/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/move_base_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/share/actionlib/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/nav_core/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pluginlib/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pluginlib" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/costmap_2d/cfg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/costmap_2d/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/costmap_2d/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/msg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/srv/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_description/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/robot_model/robot_state_publisher/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/robot_model/kdl_parser/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/orocos_kinematics_dynamics/orocos_kdl/install_dir/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/include/eigen3" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/laser_pipeline/laser_geometry/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/voxel_grid/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/include/pcl-1.5" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/cfg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/nodelet_core/nodelet/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/nodelet_core/nodelet/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/bond_core/bondcpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/bond_core/bond/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/bond_core/smclib/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/nodelet_core/nodelet_topic_tools/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/base_local_planner/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/base_local_planner/cfg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/base_local_planner/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/navfn/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/navfn/cfg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/navfn/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/clear_costmap_recovery/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/navigation/rotate_recovery/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/RoboCupAtWork/raw_command_tools/raw_script_server/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/RoboCupAtWork/raw_manipulation/raw_arm_navigation/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/cob_common/brics_actuator/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/arm_navigation_msgs/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/arm_navigation_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/arm_navigation_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/kinematics_msgs/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/kinematics_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/kinematics_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/msg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/srv/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/planning_environment/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/geometric_shapes/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/robot_model/resource_retriever/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/planning_models/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/robot_model/urdf/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/robot_model/colladadom/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/robot_model/colladadom/include/1.5" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/robot_model/urdf_parser/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/robot_model/urdf_interface/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/robot_model/collada_parser/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/geometry/tf/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/geometry/tf/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/geometry/tf/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/bullet/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/geometry/angles/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/geometry/tf_conversions/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_common/brics_actuator/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_controller_interface/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_mechanism_model/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_hardware_interface/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pluginlib/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pluginlib" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/ros_control/hardware_interface/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/ros_control/controller_interface/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/ros_control/control_toolbox/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/ros_control/control_toolbox/include/control_toolbox/eigen2" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/ros_control/control_toolbox/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_controllers/pr2_controllers_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_controllers/pr2_controllers_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/ros_control/realtime_tools/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/msg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/srv/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/control/control_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_trajectory_action_server/cfg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_trajectory_action_server/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_drivers/youbot_oodl/cfg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_drivers/youbot_oodl/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/youbot_driver" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/youbot_driver/soem/src" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_common/pr2_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_common/pr2_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/hbrs-ros-pkg/hbrs_common/hbrs_srvs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/hbrs-ros-pkg/hbrs_common/hbrs_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/arm_navigation_msgs/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/arm_navigation_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/arm_navigation_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/bosch_drivers/usb_cam/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/bosch_drivers/usb_cam/msg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/image_common/image_transport/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/openni_camera/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/openni" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/image_common/camera_info_manager/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/image_common/camera_calibration_parsers/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/nodelet_core/nodelet/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/nodelet_core/nodelet/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/bond_core/bondcpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/bond_core/bond/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/bond_core/smclib/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/kinematics_msgs/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/kinematics_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/kinematics_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/planning_environment/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/geometric_shapes/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/robot_model/resource_retriever/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/arm_navigation/planning_models/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/collision_space/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/physics_ode/opende/opende/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/physics_ode/opende/threadpool" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/include/pcl-1.5" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/cfg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/nodelet_core/nodelet_topic_tools/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/robot_self_filter/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/filters/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/visualization/rviz/src" kind="inc" path="" system="true"/>
@@ -329,13 +341,10 @@
 <pathentry include="/opt/ros/fuerte/stacks/visualization_common/ogre/ogre/include/OGRE" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/visualization_common/ogre/ogre/include/OGRE/RTShaderSystem" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/visualization_common/ogre_tools/src" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/image_common/image_transport/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/laser_pipeline/laser_geometry/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/visualization/interactive_markers/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/arm_kinematics_constraint_aware/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/kinematics_base/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/orocos_kinematics_dynamics/orocos_kdl/install_dir/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/geometry/tf_conversions/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/robot_model/kdl_parser/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/ompl_ros_interface/msg/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/ompl_ros_interface/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/ompl_ros_interface/msg_gen/cpp/include" kind="inc" path="" system="true"/>
@@ -349,8 +358,6 @@
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/move_arm/msg/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation/move_arm/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation_experimental/move_arm_warehouse/msg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_controllers/pr2_controllers_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_controllers/pr2_controllers_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/warehousewg/mongo_ros/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/warehousewg/mongodb/mongo/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/arm_navigation_experimental/move_arm_head_monitor/msg_gen/cpp/include" kind="inc" path="" system="true"/>
@@ -359,32 +366,29 @@
 <pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_mechanism_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
 <pathentry include="/home/zinnirah/ros/external_software/youbot-manipulation/youbot_arm_kinematics/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/pr2_kinematics/pr2_arm_kinematics/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/hbrs-ros-pkg/hbrs_common/hbrs_srvs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/hbrs-ros-pkg/hbrs_common/hbrs_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/RoboCupAtWork/raw_navigation/raw_base_placement/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/RoboCupAtWork/raw_navigation/raw_base_placement/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/RoboCupAtWork/raw_common/raw_srvs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_description/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/robot_model/robot_state_publisher/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_controller_interface/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_mechanism_model/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_hardware_interface/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_controllers/control_toolbox/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_controllers/control_toolbox/include/control_toolbox/eigen2" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_controllers/control_toolbox/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/realtime_tools/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_trajectory_action_server/cfg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_common/youbot_trajectory_action_server/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_drivers/youbot_oodl/cfg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/youbot-ros-pkg/youbot_drivers/youbot_oodl/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/youbot_driver" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/youbot_driver/soem/src" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/bosch_drivers/usb_cam/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/bosch_drivers/usb_cam/msg/cpp" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/openni_camera/include" kind="inc" path="" system="true"/>
-<pathentry include="/usr/include/openni" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/image_common/camera_info_manager/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/image_common/camera_calibration_parsers/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/image_pipeline/depth_image_proc/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/opencv" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/vision_opencv/cv_bridge/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/vision_opencv/image_geometry/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/image_pipeline/image_proc/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/image_pipeline/image_proc/cfg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_command_tools/cob_script_server/msg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_command_tools/cob_script_server/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_common/cob_srvs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/navigation/move_base_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_driver/cob_sound/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_driver/cob_sound/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/audio_common/sound_play/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/audio_common/sound_play/msg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/audio_common/sound_play/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_driver/cob_relayboard/common/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_driver/cob_relayboard/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/zinnirah/ros/external_software/cob_driver/cob_utilities/common/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/geometry/eigen_conversions/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/share/rxtools/src" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_power_drivers/pr2_power_board/srv/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_power_drivers/pr2_power_board/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/diagnostics/diagnostic_aggregator/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/simulator_gazebo/gazebo/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/simulator_gazebo/gazebo/gazebo/include/gazebo-1.0.2" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/simulator_gazebo/gazebo/gazebo/include/gazebo-1.0.2/gazebo" kind="inc" path="" system="true"/>
@@ -397,17 +401,7 @@
 <pathentry include="/opt/ros/fuerte/stacks/simulator_gazebo/gazebo_plugins/cfg/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/simulator_gazebo/gazebo_plugins/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/simulator_gazebo/gazebo_plugins/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/executive_smach/smach_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/include/opencv" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/vision_opencv/cv_bridge/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/object_manipulation/object_manipulation_msgs/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/object_manipulation/object_manipulation_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/object_manipulation/object_manipulation_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/object_manipulation/household_objects_database_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/opt/ros/fuerte/stacks/object_manipulation/household_objects_database_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/ccny_vision/artoolkit/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/ccny_vision/artoolkit/include/AR/sys" kind="inc" path="" system="true"/>
-<pathentry include="/home/zinnirah/ros/external_software/ccny_vision/ar_pose/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/fuerte/stacks/pr2_mechanism/pr2_controller_manager/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/local/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" kind="inc" path="" system="true"/>
@@ -419,128 +413,149 @@
 </storageModule>
 <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
 <buildTargets>
+<target name=": ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j8</buildArguments>
+<buildTarget>ROSBUILD_genmanifest_roseus_brsu_hmm_eid_use_cases</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
 <target name=": ROSBUILD_genmsg_cpp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>ROSBUILD_genmsg_cpp</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": ROSBUILD_genmsg_lisp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>ROSBUILD_genmsg_lisp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j8</buildArguments>
+<buildTarget>ROSBUILD_genmsg_roseus_brsu_hmm_eid_use_cases</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": ROSBUILD_gensrv_cpp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>ROSBUILD_gensrv_cpp</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": ROSBUILD_gensrv_lisp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>ROSBUILD_gensrv_lisp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-j8</buildArguments>
+<buildTarget>ROSBUILD_gensrv_roseus_brsu_hmm_eid_use_cases</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": clean-test-results" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>clean-test-results</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": rebuild_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>rebuild_cache</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": rosbuild_precompile" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>rosbuild_precompile</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": rosbuild_premsgsrvgen" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>rosbuild_premsgsrvgen</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": rospack_genmsg" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>rospack_genmsg</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": rospack_genmsg_libexe" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>rospack_genmsg_libexe</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": rospack_gensrv" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>rospack_gensrv</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": test" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>test</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": test-future" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>test-future</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": test-results" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>test-results</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": test-results-run" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>test-results-run</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": tests" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>tests</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>all</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
 </target>
 <target name=": clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
 <buildCommand>/usr/bin/make</buildCommand>
-<buildArguments>-j2</buildArguments>
+<buildArguments>-j8</buildArguments>
 <buildTarget>clean</buildTarget>
 <stopOnError>true</stopOnError>
 <useDefaultCommand>false</useDefaultCommand>
@@ -573,6 +588,6 @@
 </cconfiguration>
 </storageModule>
 <storageModule moduleId="cdtBuildSystem" version="4.0.0">
-<project id="kee_use_cases.null.1" name="kee_use_cases"/>
+<project id="brsu_hmm_eid_use_cases.null.1" name="brsu_hmm_eid_use_cases"/>
 </storageModule>
 </cproject>
