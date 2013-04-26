@@ -13,6 +13,7 @@
   <depend package="roscpp"/>
   <depend package="smach"/>
   <depend package="smach_ros"/>
+  <depend package="brsu_hmm_eid_messages"/>
   <!--depend package="raw_2dnav"/>
   <depend package="raw_generic_states">
   <depend package="raw_2dnav_eband"/>
@@ -24,6 +25,7 @@
   <depend package="raw_base_placement"/-->
   <depend package="raw_bringup"/>
   <depend package="raw_bringup_sim"/>
+  
   <!--depend package="raw_calibration_data"/>
   <depend package="raw_default_env_config"/>
   <depend package="raw_default_robot_config"/>
