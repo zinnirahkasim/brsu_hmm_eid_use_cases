@@ -14,7 +14,7 @@
     #  
 import sys
 import roslib
-roslib.load_manifest('kee_use_cases')
+roslib.load_manifest('brsu_hmm_eid_use_cases')
 
 import rospy
 import os
