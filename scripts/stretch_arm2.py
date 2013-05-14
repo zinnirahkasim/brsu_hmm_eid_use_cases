@@ -35,7 +35,7 @@ def main():
     sss.move("base", "S1")
     sss.move("base", "S2")
     sss.move("base", "D2")
-    sss.move("base", "EXIT")
+    #sss.move("base", "EXIT")
     rospy.spin()
 
 if __name__ == '__main__':
