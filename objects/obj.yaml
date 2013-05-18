@@ -2,279 +2,449 @@ box_0:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.0246280134922272, -0.0174617243583306, 0.33]
+  position: [1.0118080661746154, -0.055293285852196394, 0.33]
 box_1:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.2179569880469816, -0.08648270581438156, 0.33]
+  position: [-0.019418250911379165, -0.2600706291399213, 0.33]
 box_2:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.5169954193479236, -0.41628034084571897, 0.33]
+  position: [1.216560896395809, 0.276202033099725, 0.33]
 box_3:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.15642942544447558, -0.7557217483811762, 0.33]
+  position: [-0.6303617158620165, 0.7437424973109985, 0.33]
 box_4:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.9992154743960676, 0.4649022752586043, 0.33]
+  position: [-1.0739365921650983, 0.43487513601280336, 0.33]
 box_5:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.6723706434170564, -0.39148015782101164, 0.33]
+  position: [0.543241490191853, 0.3834306460274082, 0.33]
 box_6:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.32263321481695173, 0.03970902664141063, 0.33]
+  position: [-0.6366942519401878, -0.01597237517675021, 0.33]
 box_7:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.290202470117851, 0.02849295581865019, 0.33]
+  position: [-0.5072506346472954, 0.47728883489842056, 0.33]
 box_8:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.998212999554378, 0.40493772608763257, 0.33]
+  position: [-0.13527310920289182, -0.9390867695446758, 0.33]
 box_9:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.8512761488014937, -0.4787610845688217, 0.33]
+  position: [-0.46333632814002823, -0.547648386046597, 0.33]
 box_10:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.47950707516359103, -0.32600891690723466, 0.33]
+  position: [-0.7635924046715264, -0.969441552353655, 0.33]
 box_11:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.3540275470441723, -0.43262474462578004, 0.33]
+  position: [-0.3846124381931899, -0.38149229220978764, 0.33]
 box_12:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.19556850072978138, 0.7212008262341421, 0.33]
+  position: [0.7726228872437972, 0.6375637409797978, 0.33]
 box_13:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [1.2647150678659185, 0.7568355383155556, 0.33]
+  position: [0.3146517614039728, 0.7779134823815392, 0.33]
 box_14:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.5552551585771278, -0.758224506634589, 0.33]
+  position: [-1.1465289995910035, -0.9745679435025172, 0.33]
 box_15:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.37445464042366794, -0.7491530569675666, 0.33]
+  position: [-0.016115851872216425, -0.45017265105641546, 0.33]
 box_16:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.6600990279901243, 0.2983487190597016, 0.33]
+  position: [0.9372231395484927, 0.1073274439403673, 0.33]
 box_17:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.677647999613749, -0.7888851221163229, 0.33]
+  position: [-0.1105643311930371, 0.5406088666991846, 0.33]
 box_18:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.132218394755117, -0.30197221451372114, 0.33]
+  position: [1.4644542068922388, -0.5394956368320774, 0.33]
 box_19:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.5922971881930419, 0.06777787352144804, 0.33]
+  position: [0.3333921435586078, -0.8031731640048714, 0.33]
 box_20:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.3718443128936506, -0.8999637340068365, 0.33]
+  position: [-0.7629419723749946, 0.288230847618669, 0.33]
 box_21:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.8481765360623181, 0.0206959630403718, 0.33]
+  position: [1.0608889014215759, 0.43366217509215743, 0.33]
 box_22:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.7346306132144971, 0.2909773085607541, 0.33]
+  position: [1.1753759080580113, 0.37183511735146224, 0.33]
 box_23:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.8760578828519612, 0.3193622808790544, 0.33]
+  position: [0.794895886713038, 0.46527624081865304, 0.33]
 box_24:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.9095601390985676, -0.7627111910323316, 0.33]
+  position: [0.2551824498953086, 0.12749122410667435, 0.33]
 box_25:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.3021113924763641, -0.8672593410749676, 0.33]
+  position: [0.36721555906944126, 0.9905720440723136, 0.33]
 box_26:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.1665998560502073, 0.6822302621407985, 0.33]
+  position: [-0.033704594330904, -0.7362769071058677, 0.33]
 box_27:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.066076276084197, -0.7037085708389053, 0.33]
+  position: [-0.97427288250048, 0.3403406464665697, 0.33]
 box_28:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.7360425785884415, 0.17064487480909651, 0.33]
+  position: [1.1421119601062477, 0.9986571754333069, 0.33]
 box_29:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.1715105917569255, 0.22702683630118226, 0.33]
+  position: [-0.416855786301104, 0.4539268312949678, 0.33]
 box_30:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.747768590123334, -0.9690554949194337, 0.33]
+  position: [-1.5012173315941968, -0.517393515268521, 0.33]
 box_31:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.2918012684647642, -0.8011333401567176, 0.33]
+  position: [1.031345457438774, -0.539515420604086, 0.33]
 box_32:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.6006896161770499, 0.31739476546041145, 0.33]
+  position: [-0.2740327460977112, -0.06916722577341838, 0.33]
 box_33:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.325653488351593, -0.7008318982595452, 0.33]
+  position: [0.4677975558040648, 0.3714929489193681, 0.33]
 box_34:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.0718472142052224, 0.2904910242668022, 0.33]
+  position: [0.9873135003556941, -0.41309239678341636, 0.33]
 box_35:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.1272210098538049, 0.8655989392859773, 0.33]
+  position: [1.3064305244291026, -0.7746374850309472, 0.33]
 box_36:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.7606238382059545, -0.4667664212186893, 0.33]
+  position: [-0.15386370877010358, 0.10133098017155051, 0.33]
 box_37:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.5238561655122146, 0.811298244966961, 0.33]
+  position: [0.039523012302447924, -0.10298741210607498, 0.33]
 box_38:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.08114917144554967, 0.47541488828271716, 0.33]
+  position: [-0.9580620543656322, -0.7113253770643262, 0.33]
 box_39:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.43239418666061025, 0.7986500213442509, 0.33]
+  position: [-1.2741472387398565, 0.473354031070109, 0.33]
 box_40:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.555309700577963, 0.3831880273749506, 0.33]
+  position: [-1.4551458271919706, -0.374538902478766, 0.33]
 box_41:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.9096988859797044, 0.9461783271596711, 0.33]
+  position: [-1.3873740394929908, -0.906380323874459, 0.33]
 box_42:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.7892194831534428, 0.005562441686008057, 0.33]
+  position: [1.3523988661902457, -0.5814640282729604, 0.33]
 box_43:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.883621928009672, 0.009593376972967693, 0.33]
+  position: [0.46479848860784667, 0.03129741695519872, 0.33]
 box_44:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.011325898438387494, -0.5995158792865203, 0.33]
+  position: [-0.6791760498385303, -0.22565158704153654, 0.33]
 box_45:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.968098753390319, -0.26316313297457516, 0.33]
+  position: [-0.9653707627850245, 0.6525806458984322, 0.33]
 box_46:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.41409295769243903, -0.19639774100912688, 0.33]
+  position: [1.1259142901258743, 0.5855753227098386, 0.33]
 box_47:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [1.227138378683812, -0.6901526062495655, 0.33]
+  position: [-0.48914614037787385, -0.31814542689046443, 0.33]
 box_48:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-0.1063007373234306, -0.576463020216456, 0.33]
+  position: [0.1746304226795885, -0.5376068241903758, 0.33]
 box_49:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.6475898321383928, -0.8797826200137815, 0.33]
+  position: [0.8334265847330595, 0.5928829542447653, 0.33]
 box_50:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [1.333418937466551, -0.5194448327552132, 0.33]
+  position: [0.5881667858824868, -0.7437396883081551, 0.33]
 box_51:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.5223009846077544, -0.377771599691757, 0.33]
+  position: [-1.272198771402587, 0.7225780676478557, 0.33]
 box_52:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [0.3961499570332603, -0.5757868440082121, 0.33]
+  position: [-1.239365526201543, -0.9636464818440218, 0.33]
 box_53:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [1.1719813323844503, 0.968562315920702, 0.33]
+  position: [-0.785544135771613, 0.5590512385504727, 0.33]
 box_54:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [-1.0469742545571943, -0.6149519825571013, 0.33]
+  position: [-0.08412929084533505, 0.9173863655664123, 0.33]
 box_55:
   model_type: urdf
   object_type: box_1
   orientation: [0, 0, 0]
-  position: [1.2307420368948785, -0.040655405598543304, 0.33]
+  position: [1.2949273741918166, -0.35293759137507963, 0.33]
+box_56:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.3961081475901471, -0.06599985747437409, 0.33]
+box_57:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.5355855752306822, -0.532923734246924, 0.33]
+box_58:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.7331625084097836, 0.22683752874866103, 0.33]
+box_59:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-1.2579277417936292, -0.9289728051803587, 0.33]
+box_60:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.6112813596837977, -0.4497759227692124, 0.33]
+box_61:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.8857885856362037, 0.8807835572563993, 0.33]
+box_62:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.9699411770847282, 0.9523265299884047, 0.33]
+box_63:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.47067935516560144, 0.3320478377659908, 0.33]
+box_64:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.7724831991312069, -0.892303627517157, 0.33]
+box_65:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.3210925880618507, 0.5756569505111391, 0.33]
+box_66:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.0760601439630189, -0.48125951892095564, 0.33]
+box_67:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.475037361009028, 0.9957984703891496, 0.33]
+box_68:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.5272719733775246, -0.3515904829895049, 0.33]
+box_69:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.2899472224160984, 0.8390266822162875, 0.33]
+box_70:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.3917336945425478, -0.19616152705144918, 0.33]
+box_71:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.7136603815099369, 0.9323782702115977, 0.33]
+box_72:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.3858156257622003, 0.35144188677018406, 0.33]
+box_73:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.41162968330143723, -0.8557212742070632, 0.33]
+box_74:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.4518889473409504, -0.711733863977766, 0.33]
+box_75:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.17831831525414388, 0.21969923454335505, 0.33]
+box_76:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-1.194776524442703, 0.4000078833918377, 0.33]
+box_77:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-1.1709758493964486, -0.046780219389947364, 0.33]
+box_78:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.26173701869855, -0.42490495943447515, 0.33]
+box_79:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.4868443332551369, -0.7202790476903385, 0.33]
+box_80:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.18932693205763362, -0.5688979528008866, 0.33]
+box_81:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.3641027079795103, -0.6308422419599855, 0.33]
+box_82:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-1.0826010011937797, -0.6203332524504623, 0.33]
+box_83:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-1.2584049855622859, -0.2588957864494146, 0.33]
+box_84:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-1.233528036607213, -0.7659212338124346, 0.33]
+box_85:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-1.0909720320368446, -0.2133983245378399, 0.33]
+box_86:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.9343750782951294, -0.4258175400288793, 0.33]
+box_87:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [0.220191955285729, -0.2953413904900546, 0.33]
+box_88:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [-0.2509839549695301, -0.07933537485837205, 0.33]
+box_89:
+  model_type: urdf
+  object_type: box_1
+  orientation: [0, 0, 0]
+  position: [1.0641798134409677, -0.2497120619428117, 0.33]

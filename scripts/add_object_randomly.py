@@ -14,7 +14,7 @@
     #  
 import sys
 import roslib
-roslib.load_manifest('kee_use_cases')
+roslib.load_manifest('brsu_hmm_eid_use_cases')
 
 import rospy
 import os
@@ -37,7 +37,7 @@ class set_param_for_new_object:
         
     def write_yaml_files(self):
         #amount = raw_input("How many objects would you like to spawn? ")
-        new_obj_yaml_file = open('/home/zinnirah/ros/workspace/kee_use_cases/objects/obj.yaml', 'w')
+        new_obj_yaml_file = open('/home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/objects/obj.yaml', 'w')
         for i in range(self.amount):
             #self.x = random.uniform(-1.52, 1.52)
             #self.y = random.uniform(1.22, -1.22)
@@ -49,7 +49,7 @@ class set_param_for_new_object:
         new_obj_yaml_file.close()
 
     def set_parameter(self):
-        read_yaml_file = open('/home/zinnirah/ros/workspace/kee_use_cases/objects/obj.yaml', 'r')
+        read_yaml_file = open('/home/zinnirah/ros/workspace/thesis/brsu_hmm_eid_use_cases/objects/obj.yaml', 'r')
         rospy.set_param("/simulation/random_objects/", yaml.load(read_yaml_file))
         print yaml.load(read_yaml_file)
         read_yaml_file.close()
@@ -113,7 +113,7 @@ def main():
         object_pose.orientation.z = quaternion[2]
         object_pose.orientation.w = quaternion[3]
 
-        file_localition = roslib.packages.get_pkg_dir('kee_use_cases') + '/objects/' + object_type + '.' + model_type
+        file_localition = roslib.packages.get_pkg_dir('brsu_hmm_eid_use_cases') + '/objects/' + object_type + '.' + model_type
 
         # call gazebo service to spawn model (see http://ros.org/wiki/gazebo)
         if model_type == "urdf":
