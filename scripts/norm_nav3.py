@@ -23,14 +23,14 @@ def main():
 
     rospy.sleep(3)
     sss.move("base", "S3")
-    rospy.sleep(3)
-    sss.move("arm", "zigzag/zigzag_3")
+    rospy.sleep(1)
+    #sss.move("arm", "zigzag/zigzag_3")
     sss.move("base", "D1")
-    rospy.sleep(3)
+    rospy.sleep(1)
     sss.move("base", "S3")
-    rospy.sleep(3)
+    rospy.sleep(1)
     sss.move("base", "D2")
-    rospy.sleep(3)
+    rospy.sleep(1)
 
     
     #rospy.loginfo('Arm at candle base at S2')
