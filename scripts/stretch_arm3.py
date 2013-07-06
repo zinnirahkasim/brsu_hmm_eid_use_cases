@@ -22,12 +22,12 @@ def main():
     
 
     rospy.sleep(3)
-    sss.move("base", "S3")
+    sss.move("base", "S2")
     rospy.sleep(3)
     sss.move("arm", "zigzag/zigzag_3")
     sss.move("base", "D1")
     rospy.sleep(3)
-    sss.move("base", "S3")
+    sss.move("base", "S2")
     rospy.sleep(3)
     sss.move("base", "D2")
     rospy.sleep(3)
