@@ -40,7 +40,7 @@ def main():
     # sss.move("arm", "zigzag/zigzag1")
     #sss.move("base", "EXIT")
     #rospy.loginfo('Arm at zigzag1 base at EXIT')
-    rospy.spin()
+    #rospy.spin()
 
     
 
